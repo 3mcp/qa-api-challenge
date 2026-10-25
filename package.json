@@ -1,0 +1,29 @@
+{
+  "name": "qa-api-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/3mcp/qa-api-challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/3mcp/qa-api-challenge/issues"
+  },
+  "homepage": "https://github.com/3mcp/qa-api-challenge#readme",
+  "devDependencies": {
+    "cypress": "^16.2.0",
+    "cypress-mochawesome-reporter": "^5.0.0",
+    "dotenv": "^18.0.9"
+  },
+  "allowScripts": {
+    "cypress@16.2.0": true
+  }
+}
